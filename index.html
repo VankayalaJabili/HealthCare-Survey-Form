@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form>
+            <h1>Healthcare Survey</h1>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname"><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname"><br>
+            <label for="age">Age</label>
+            <input type="number" id="age"><br>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <label>Are you currently experiencing any of the below symptoms?</label>
+            <input type="checkbox" value="fever">Fever<br>
+            <input type="checkbox" value="cough">Cough<br>
+            <input type="checkbox" value="fatigue">Fatigue<br>
+            <input type="checkbox" value="shortness_of_breath">Shortness of Breath<br>
+            <label>Do you have any of the following pre-existing conditions?</label>
+            <input type="checkbox" value="diabetes"> Diabetes<br>
+            <input type="checkbox" value="hypertension"> Hypertension<br>
+            <input type="checkbox" value="heart_disease"> Heart Disease<br>
+            <input type="checkbox" value="none"> None<br><br>
+            <label for="comments">Any additional health concerns or comments?</label><br>
+            <textarea id="comments" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
