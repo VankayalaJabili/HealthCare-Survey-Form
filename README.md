@@ -23,11 +23,9 @@ The form collects the following data:
 
 - **HTML** – Structure of the form
 - **CSS** – Styling and layout
-- *(No JavaScript is used in this version)*
 
-## 📁 Project Structure
+## ❗ Troubleshooting
 
-📁 healthcare-survey-form/ 
-├── index.html # Main HTML form
-├── styles.css # Custom styles for layout and form 
-└── background1.png # Background image used in the page
+• Ensure all files (`index.html`, `styles.css`, and `background1.png`) are in the same directory so the background image loads properly.  
+• If the form layout appears broken, make sure you're using a modern web browser like Chrome, Firefox, or Edge.  
+• Check that `styles.css` is correctly linked in the <head> section of `index.html`.  
